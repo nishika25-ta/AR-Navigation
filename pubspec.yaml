@@ -1,0 +1,75 @@
+name: ar_navigation
+description: "An AR-powered navigation app with immersive location experiences."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.4.2
+  webview_flutter_wkwebview: ^3.22.0
+  webview_flutter_android: ^4.7.0
+  google_maps_flutter: ^2.12.2
+  http: ^1.2.1
+  mobile_scanner: ^5.1.1
+  flutter_polyline_points: ^2.0.0
+  geolocator: ^14.0.1
+  geocoding: ^4.0.0
+  vector_math: ^2.1.4
+  permission_handler: ^12.0.0+1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  json_annotation: ^4.8.1
+  device_info_plus: ^11.4.0
+  connectivity_plus: ^6.1.4
+  url_launcher: ^6.2.1
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  flutter_spinkit: ^5.2.0
+  fluttertoast: ^8.2.4
+  webview_flutter_platform_interface: ^2.13.1
+  shelf: ^1.4.2
+  shelf_static: ^1.1.2
+  path: ^1.9.0
+  flutter_inappwebview: ^6.1.5
+  flutter_launcher_icons: "^0.13.1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  # Application assets - FIXED STRUCTURE
+  assets:
+    # Images
+    - assets/images/unimas_logo.png
+    - assets/images/ulogo.png
+    - assets/images/Unimas.png
+    - assets/images/PETARY.png
+    - assets/images/Pavillion.png
+    - assets/images/FE.png
+    - assets/images/fcshd.png
+    - assets/images/FLC.png
+    - assets/ar_project/
+    - assets/images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false # Set to false if you are not targeting iOS
+  image_path: "assets/images/app_icon.png"
+
+    # If you have other AR scenes, add them here:
+    # - assets/other_ar_scene/
+    # - assets/other_ar_scene/model.glb
